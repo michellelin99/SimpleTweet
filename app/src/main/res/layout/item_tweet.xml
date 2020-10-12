@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:text="TextView"
         android:layout_toEndOf="@id/tvProfileImage"
-        android:layout_marginStart="5dp"/>
+        android:layout_marginLeft="5dp"/>
 
     <TextView
         android:id="@+id/tvCreatedSince"
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:text="TextView"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="5dp"/>
+        android:layout_marginLeft="5dp"/>
 
     <TextView
         android:id="@+id/tvBody"
@@ -39,5 +39,5 @@
         android:layout_toEndOf="@id/tvProfileImage"
         android:layout_below="@id/tvScreenName"
         android:layout_marginTop="2dp"
-        android:layout/>
+        android:layout_marginLeft="5dp"/>
 </RelativeLayout>
